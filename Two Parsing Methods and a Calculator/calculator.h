@@ -8,7 +8,7 @@
 #ifndef calculator_h
 #define calculator_h
 
-#include "TDP.h"
+#include "tdp.h"
 
 extern int calculate(Node n, int result);
 

@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "tree.h"
-#include "TDP.h"
+#include "tdp.h"
 #include "calculator.h"
 
 int main(int argc, const char * argv[]) {
@@ -42,14 +42,14 @@ int main(int argc, const char * argv[]) {
             break;
 
         case 2: ;
-            tr2 = TDP(input);
+            tr2 = tdp(input);
             print_tree(tr2, 0);
             free_Tree(tr2->root);
             break;
 
         case 3: ;
 
-            tr2 = TDP(input);
+            tr2 = tdp(input);
             printf("\nresult: %i\n", calculate(tr2->root, 0));
             free_Tree(tr2->root);
             break;

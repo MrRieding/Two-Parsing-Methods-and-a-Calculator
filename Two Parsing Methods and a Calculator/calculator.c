@@ -7,7 +7,7 @@
 
 #include "calculator.h"
 #include <string.h>
-#include "TDP.h"
+#include "tdp.h"
 
 
 bool ops(char c){
